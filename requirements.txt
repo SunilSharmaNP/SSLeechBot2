@@ -1,4 +1,4 @@
-aiohttp
+aiohttp[speedups]
 aiofiles
 aioshutil
 anytree==2.8.0
@@ -38,7 +38,9 @@ requests
 speedtest-cli
 telegraph
 tenacity
+uv
 tgcrypto
 uvloop
 xattr
-yt-dlp
+yt-dlp[default,curl-cffi]
+pytz
